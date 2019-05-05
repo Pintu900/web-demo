@@ -1,0 +1,204 @@
+<!Doctype HTML>
+<html>
+<head> 
+<link href='https://fonts.googleapis.com/css?family=Lato:100italic' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
+ <title>TechFest</title>
+ <style type="text/css" rel="stylesheet" >
+ body {
+  margin: 0;
+  padding:0;
+  background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("ab.jpg");
+ background-size:cover;
+ 
+}
+
+.main{
+     background-color:black;
+	position:relative;
+	top:-17px;
+	}
+ .main li {
+	  display: inline-block;
+	  padding:10px;
+	  List-style-type:none;
+                 
+	  }
+	  
+	   ul li a{
+	   font-family: arial;
+	  text-decoration:none;
+	  color:#fff;
+	  padding:5px 5px;
+	  border:1px solid transparent;
+	  transition:0.6s ease;
+  }
+   ul li a:hover{
+	  background-color:#fff;
+	  color:black;
+   }
+   ul li.active a{
+	   
+	  background-color:#fff;
+	  color:black; 
+   }
+  .one{
+  position:relative;
+  right:-650px;
+  border:0;
+	background: #2ecc71;
+	display:block;
+	text-align:center;
+	padding: 10px 30px;
+	color: white;
+	border-radius: 24px;
+   }
+   #log a:hover{
+   background:none;
+   }
+   
+   .title{
+	   position: absolute;
+	   top: 20%;
+	   left:50%;
+	   transform: translate(-50%,-50%);
+   }
+   .title h1{
+    font-family: Georgia, serif;
+	  padding:5px 20px;
+	   border:1px solid;
+	   color:#fff;
+	   font-size:60px;
+   }
+   #para{
+     font-style: bold;
+     font-family:Lato, sans-serif;
+	 font-size:30px;
+    position: absolute;
+	   top: 60%;
+	   left:50%;
+	   transform: translate(-50%,-50%);
+	   color:#fff;
+	   font-size:17px;
+   }
+   #para input[type="email"]{
+	border:0;
+	background:none;
+	display:block;
+	margin:20px auto;
+	text-align:center;
+	border:2px solid #3498db;
+	padding: 14px 10px;
+	width:300px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition:0.5s;
+	}
+	#para input[type="email"]:focus{
+ width:380px;
+ border-color:#2ecc71;
+}
+#para input[type="submit"]{
+	border:0;
+	background:none;
+	display:block;
+	margin:20px auto;
+	text-align:center;
+	border:2px solid #2ecc71;
+	padding: 14px 40px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition:0.5s;
+	cursor: pointer;
+	}
+	#para input[type="submit"]:hover{
+	  background:#2ecc71;
+	  }
+	.table{
+	margin-bottom:20px;
+	 position: absolute;
+	   top: 100%;
+	   left:50%;
+	   transform: translate(-50%,-50%);
+	   color:#fff;
+	   }
+	   
+#customers {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers th{
+  padding-top:12px;
+  padding-bottom:12px;
+  text-align: left;
+  background-color:#4CAF50;
+  color: white;
+}
+
+
+ </style>
+ </head>
+ <body >
+ <header>
+ <div class="main">
+ 
+    <ul>
+	  <li class="active"><a href="#" >Home</a></li>
+	  <li><a href="#">Services</a></li>
+	  <li><a href="#">Gallery</a></li>
+	  <li><a href="#">About</a></li>
+	  <li><a href="contact.html">contact</a></li>
+	  <li><div id="log"><button class="one"><a href="login.html">Login</a></button></div></li>
+	</ul>
+  </div>
+   <div class="title">
+     <p><h1> TECHFEST 2019</h1></p>
+	
+	 </div>
+	 <div id="para">
+	  <p>Started in 1998 with the motive of encouraging technology, scientific thinking and innovation, Techfest is now recognised as Asia's largest
+	 Science and Technology festival with a footfall of more that 1,75,000 annually and a reach of over 2500+ Indian colleges and over 500+ colleges
+	 abroad. The 22nd edition of the festival will be held from 14th December to 16th December, 2018.</p>
+	 </br>
+	  <input type="email" placeholder="email">
+	  <input type="submit" name="" value="Register">
+	 </div>
+	 <div class="table">
+	 <table id="customers">
+  <tr>
+    <th>Company</th>
+    <th>Contact</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Berglunds snabbköp</td>
+    <td>Christina Berglund</td>
+    <td>Sweden</td>
+  </tr>
+  <tr>
+    <td>Centro comercial Moctezuma</td>
+    <td>Francisco Chang</td>
+    <td>Mexico</td>
+  </tr>
+	 </div>
+	 
+ </header>
+ <div id="foot">
+ </div>
+ 
+ </body>
+ </html>
